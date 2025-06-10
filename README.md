@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ka">
 <head>
   <meta charset="UTF-8" />
@@ -237,9 +236,9 @@
 
     <div class="question" id="q3">
       <p>3. ბიჭებმა რატომ მოიპარეს სიმართლის ზარი?</p>
-      <button class="btn" onclick="checkAnswer(this, 'q3', false)">კატა კლიზმამ დაავალა</button>
+      <button class="btn" onclick="checkAnswer(this, 'q3', true)">კატა კლიზმამ დაავალა</button>
       <button class="btn" onclick="checkAnswer(this, 'q3', false)">მათ სიმართლის გაგება უნდოდათ</button>
-      <button class="btn" onclick="checkAnswer(this, 'q3', true)">განადგურება უნდოდთ</button>
+      <button class="btn" onclick="checkAnswer(this, 'q3', false)">განადგურება უნდოდთ</button>
     </div>
   </div>
 
@@ -261,4 +260,3 @@
     }
   </script>
 </body>
-</html>
